@@ -1,0 +1,84 @@
+<div className="container">
+  <div className="mx-auto mt-4 border p-3" style={{ width: "600px" }}>
+    <form>
+      <h4 className="text-center">Simple Crud operation</h4>
+      <hr />
+      <div className="form-outline mb-2">
+        <div className="row">
+          <div className="col-3">
+            <label className="fw-bolder">User Id : </label>
+          </div>
+          <div className="col-9">
+            <input type="number" className="form-control" name="id" />
+          </div>
+        </div>
+      </div>
+      <div className="form-outline mb-2">
+        <div className="row">
+          <div className="col-3">
+            <label className="fw-bolder">User name : </label>
+          </div>
+          <div className="col-9">
+            <input type="text " className="form-control" name="name" />
+          </div>
+        </div>
+      </div>
+      <div className="form-outline mb-2">
+        <div className="row">
+          <div className="col-3">
+            <label className="fw-bolder">Phone-no. : </label>
+          </div>
+          <div className="col-9">
+            <input type="number" className="form-control" name="pno" />
+          </div>
+        </div>
+      </div>
+      <div className="form-outline mb-2">
+        <div className="row">
+          <div className="col-3">
+            <label className="fw-bolder">Salary : </label>
+          </div>
+          <div className="col-9">
+            <input type="number" className="form-control" name="salary" />
+          </div>
+        </div>
+      </div>
+      <div className="form-outline mb-2">
+        <div className="row">
+          <div className="col-3">
+            <label className="fw-bolder">Working Days : </label>
+          </div>
+          <div className="col-9">
+            <input type="number" className="form-control" name="days" />
+          </div>
+        </div>
+      </div>
+      <div className="m-auto text-center">
+        <button type="submit" className="btn btn-primary btn-block mb-4 px-3">
+          Sign up
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <table className="table  table-hover table-bordered mt-5 text-center mb-3">
+    <thead>
+      <tr>
+        <th className="text-secondary">User Id</th>
+        <th className="text-secondary">User name </th>
+        <th className="text-secondary">Phone-no. </th>
+        <th className="text-secondary">Salary </th>
+        <th className="text-secondary">Working Days </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

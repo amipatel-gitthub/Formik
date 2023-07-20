@@ -5,7 +5,8 @@ import Pr_01 from "./Practice/Pr_01";
 import Todo_List from "./Todo/Todo_List";
 import Data_Pagination from "./Pagination/Data_Pagination";
 import Home from "./Home";
-
+import User_Form from "./Formik/User_Form";
+import Pr_02 from "./Practice/Pr_02";
 import Navbar from "./Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -23,6 +24,9 @@ function App() {
           <Route path="/Pr_01" element={<Pr_01 />} />
           <Route path="/Todo_List" element={<Todo_List />} />
           <Route path="/Data_Pagination" element={<Data_Pagination />} />
+          <Route path="/User_Form" element={<User_Form />} />
+          <Route path="/Pr_02" element={<Pr_02 />} />
+
         </Routes>
       </BrowserRouter>
     </>

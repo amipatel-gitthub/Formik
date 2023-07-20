@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-
+import logo from './logo_Header.png'
 export default function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light nav-margin">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        {/* <img src={l1} alt='no space ' style={{ height: '45px', width: '100px' }} /> */}
+                        <img src={logo} alt='no space ' style={{ height: '50px', width: '80px' }} />
                     </a>
                     <button
                         className="navbar-toggler"
@@ -34,7 +34,7 @@ export default function Navbar() {
                                     <li><a className="dropdown-item fst-italic" href="/Demo">Demo</a></li>
                                     <li><a className="dropdown-item fst-italic" href="/List">List</a></li>
                                     <li><a className="dropdown-item fst-italic" href="/Practice">Practice</a></li>
-
+                                    <li><a className="dropdown-item fst-italic" href="/User_Form">User Form</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown px-2">
@@ -43,6 +43,7 @@ export default function Navbar() {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item fst-italic" href="/Pr_01">Pr_01</a></li>
+                                    <li><a className="dropdown-item fst-italic" href="/Pr_02">Pr_02</a></li>
                                 </ul>
                             </li> <li className="nav-item dropdown px-2">
                                 <a className="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

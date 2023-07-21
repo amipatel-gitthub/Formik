@@ -8,6 +8,7 @@ import Home from "./Home";
 import User_Form from "./Formik/User_Form";
 import Pr_02 from "./Practice/Pr_02";
 import Navbar from "./Navbar";
+import Pr_03 from "./Practice/Pr_03";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
@@ -26,7 +27,7 @@ function App() {
           <Route path="/Data_Pagination" element={<Data_Pagination />} />
           <Route path="/User_Form" element={<User_Form />} />
           <Route path="/Pr_02" element={<Pr_02 />} />
-
+          <Route path="/Pr_03" element={<Pr_03 />} />
         </Routes>
       </BrowserRouter>
     </>

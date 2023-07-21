@@ -44,6 +44,7 @@ export default function Navbar() {
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item fst-italic" href="/Pr_01">Pr_01</a></li>
                                     <li><a className="dropdown-item fst-italic" href="/Pr_02">Pr_02</a></li>
+                                    <li><a className="dropdown-item fst-italic" href="/Pr_03">Pr_03</a></li>
                                 </ul>
                             </li> <li className="nav-item dropdown px-2">
                                 <a className="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
